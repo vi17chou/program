@@ -26,6 +26,7 @@ class DiaryActivity : AppCompatActivity() {
         del.setOnClickListener {
             val it= Intent(this,DelActivity::class.java)
             startActivity(it)
+            
         }
     }
 }
