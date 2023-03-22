@@ -4,23 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".EmotionActivity">
+    tools:context=".ExplainActivity">
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="336dp"
-        android:layout_height="229dp"
-        android:text="控制情緒相關資料"
-        android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:id="@+id/Explain"
+        android:layout_width="385dp"
+        android:layout_height="247dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        android:textSize="50sp"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="14dp"
+        tools:text="APP使用說明" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/start"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="返回"
+        android:layout_marginBottom="200dp"
+        android:text="進入測驗"
         android:textSize="35sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

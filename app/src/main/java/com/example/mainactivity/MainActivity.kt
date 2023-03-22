@@ -12,7 +12,7 @@ class MainActivity : AppCompatActivity() {
         val login=findViewById<Button>(R.id.login)
         val sign=findViewById<Button>(R.id.sign)
         login.setOnClickListener {
-            val it=Intent(this,TestActivity::class.java)
+            val it=Intent(this,ExplainActivity::class.java)
             startActivity(it)
         }
 
