@@ -9,9 +9,15 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val start=findViewById<Button>(R.id.start)
-        start.setOnClickListener {
+        val login=findViewById<Button>(R.id.login)
+        val sign=findViewById<Button>(R.id.sign)
+        login.setOnClickListener {
             val it=Intent(this,TestActivity::class.java)
+            startActivity(it)
+        }
+
+        sign.setOnClickListener {
+            val it=Intent(this,SignActivity::class.java)
             startActivity(it)
         }
     }

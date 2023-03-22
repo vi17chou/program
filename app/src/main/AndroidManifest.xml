@@ -12,6 +12,9 @@
         android:theme="@style/Theme.MainActivity"
         tools:targetApi="31">
         <activity
+            android:name=".SignActivity"
+            android:exported="false" />
+        <activity
             android:name=".DelActivity"
             android:exported="false" />
         <activity
