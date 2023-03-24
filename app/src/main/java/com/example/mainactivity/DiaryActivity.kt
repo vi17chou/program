@@ -27,6 +27,7 @@ class DiaryActivity : AppCompatActivity() {
             val it= Intent(this,DelActivity::class.java)
             startActivity(it)
             //為什麼又當機了
+            //c8 c8
         }
     }
 }
