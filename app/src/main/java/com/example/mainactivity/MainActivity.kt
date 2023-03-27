@@ -21,6 +21,6 @@ class MainActivity : AppCompatActivity() {
             val it=Intent(this,SignActivity::class.java)
             startActivity(it)
         }
-
+//123
     }
 }
