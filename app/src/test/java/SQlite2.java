@@ -27,6 +27,7 @@ public class SQlite2 extends SQLiteOpenHelper {
         sqLiteDatabase.execSQL(SqlTable);
     }
 
+//123
     @Override
     public void onUpgrade(SQLiteDatabase sqLiteDatabase, int i, int i1) {
         final  String SQL ="DROP TABLE Users";
