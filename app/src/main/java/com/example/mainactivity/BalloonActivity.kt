@@ -7,7 +7,7 @@ class BalloonActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_balloon)
-        //123  123a?為何上傳不了~~~555230a
+        //12
 
     }
 }
