@@ -4,6 +4,9 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.database.sqlite.SQLiteDatabase;
+import android.database.sqlite.SQLiteDatabase.CursorFactory;
+import android.database.sqlite.SQLiteOpenHelper;
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +24,5 @@ class MainActivity : AppCompatActivity() {
             val it=Intent(this,SignActivity::class.java)
             startActivity(it)
         }
-//123
     }
 }
